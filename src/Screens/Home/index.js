@@ -52,15 +52,15 @@ const Home = () => {
 						<Grid style={{ justifyContent: 'center' }} container spacing={3}>
 							<Grid item>
 								<TextDescription>Casos</TextDescription>
-								<Text>651980</Text>
+								<Text>{brasil.cases}</Text>
 							</Grid>
 							<Grid item>
 								<TextDescription>Mortes</TextDescription>
-								<Text>35211</Text>
+								<Text>{brasil.deaths}</Text>
 							</Grid>
 							<Grid item>
-								<TextDescription>Recupetados</TextDescription>
-								<Text>302084</Text>
+								<TextDescription>Confimados</TextDescription>
+								<Text>{brasil.confirmed}</Text>
 							</Grid>
 						</Grid>
 					</TopCard>
