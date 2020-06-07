@@ -95,6 +95,7 @@ const Home = () => {
 					marginLeft: '10%',
 					marginRight: '10%',
 					padding: 10,
+					boxShadow: '0px 2px 2px 0 rgba(48, 48, 48, 0.16), 0 0 0 1px rgba(48, 48, 48, 0.08)',
 				}}
 				hideFilterIcon={true}
 				columns={[
@@ -162,6 +163,7 @@ const style = {
 		flexDirection: 'row',
 		alignItems: 'center',
 	},
+
 	appTitle: {
 		fontSize: 22,
 	},

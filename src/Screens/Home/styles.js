@@ -35,7 +35,9 @@ export const TopCard = styled.div`
 	flex-direction: column;
 	background-color: #121212;
 	height: 200px;
-	border-radius: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px 0 rgba(48, 48, 48, 0.16), 0 0 0 1px rgba(48, 48, 48, 0.08);
+
 	@media (max-width: 768px) {
 		height: 150px;
 	}
@@ -65,6 +67,13 @@ export const TopCardTitle = styled.h2`
 	color: #28ba62;
 	align-self: 'center';
 	padding: 10px;
+	/* transition-property: transform;
+	transition-duration: 0.3s;
+	transition-timing-function: linear;
+	&:hover {
+		transform: rotate(-20deg);
+	} */
+
 	@media (max-width: 768px) {
 		font-size: 14px;
 	}
